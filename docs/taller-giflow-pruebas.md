@@ -11,6 +11,16 @@ Particion de equivalencias
 La particion de equivalencias es la mejor opción ya que el RF-02 define restricciones con fronteras claras como la longitud, carácter inicial y tipo de caracteres, lo que permite agrupar las entradas en clases donde todos los valores se comportan igual, haciendo innecesario probar cada dato individualmente. Así, en lugar de probar cientos de combinaciones, basta con representar cada clase con un solo caso, logrando máxima cobertura con el mínimo de pruebas posible.
 
 ## 4. Casos de Prueba Diseñados
+| Criterio                | Clases válidas (V)                                   | Clases inválidas (I)                                                  |
+|--------------------------|------------------------------------------------------|------------------------------------------------------------------------|
+| Longitud del código      | V1: Exactamente 8 caracteres                         | I1: Menos de 8 caracteres                                             |
+|                          |                                                      | I2: Más de 8 caracteres                                               |
+| Carácter inicial         | V2: Inicia con la letra "E" mayúscula               | I3: Inicia con una letra distinta a "E"                               |
+|                          |                                                      | I4: Inicia con "e" minúscula                                          |
+|                          |                                                      | I5: Inicia con un carácter no alfabético                              |
+| Caracteres restantes     | V3: Los 7 caracteres siguientes son numéricos       | I6: Contiene al menos una letra en los 7 caracteres                   |
+|                          |                                                      | I7: Contiene al menos un carácter especial en los 7 caracteres        |
+|                          |                                                      | I8: Contiene espacios en los 7 caracteres                             |
 
 ## 5. Trazabilidad
 
