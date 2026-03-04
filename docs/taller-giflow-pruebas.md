@@ -4,6 +4,10 @@
 
 ## 2. Requerimientos a Evaluar
 
+
+
+-  RF-03  Inscripcion a evento
+
 ## 3. Tecnicas de Prueba Aplicadas
 
 ## 4. Casos de Prueba Diseñados
