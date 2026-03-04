@@ -3,6 +3,7 @@
 ## 1. Descripcion del Sistema
 
 ## 2. Requerimientos a Evaluar
+RF-01 Registro de Estudiante (Edad)
 
 ## 3. Tecnicas de Prueba Aplicadas
 
