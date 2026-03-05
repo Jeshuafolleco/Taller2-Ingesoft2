@@ -7,6 +7,10 @@ Es una aplicación que permite a los estudiantes registrarse y participar en eve
 RF - 1 Registro de estudiante
 RF - 2 Codigo estudiante
 
+
+
+-  RF-03  Inscripcion a evento
+
 ## 3. Tecnicas de Prueba Aplicadas
 Requerimiento Funcional 1: 
 Escogí dos tecnicas combinadas:
